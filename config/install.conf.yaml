@@ -1,0 +1,9 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.Brewfile:
+        path: ~/.dotfiles/etc/Brewfile

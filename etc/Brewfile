@@ -1,0 +1,16 @@
+is_silicon_mac = `uname -v`.include? "RELEASE_ARM64"
+is_arm64 = `arch`.include? "arm64"
+
+if is_silicon_mac && !is_arm64
+  raise "Please run brew bundle within arm64 arch!"
+end
+
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+
+cask "visual-studio-code"
