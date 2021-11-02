@@ -5,5 +5,5 @@
 - clean: ['~']
 
 - link:
-    ~/.Brewfile:
-        path: ~/.dotfiles/etc/Brewfile
+    ~/.Brewfile: etc/Brewfile
+    ~/.zshrc: zsh/zshrc

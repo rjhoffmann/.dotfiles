@@ -13,4 +13,33 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 
+brew "antigen"
+brew "asdf"
+brew "ffmpeg"
+brew "gawk"
+brew "git"
+brew "gpg"
+brew "mas"
+brew "tree"
+brew "zsh"
+
 cask "visual-studio-code"
+cask "transmit"
+cask "webstorm"
+
+cask "firefox"
+cask "google-chrome"
+
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "font-fantasque-sans-mono"
+cask "font-fantasque-sans-mono-nerd-font"
+
+# Quicklook plugins
+cask "qlcolorcode"
+cask "qlmarkdown"
+cask "quicklook-json"
+cask "qlimagesize"
+cask "suspicious-package"
+cask "quicklookase"
+cask "qlvideo"
